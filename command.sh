@@ -1,1 +1,1 @@
-nvidia-smi
+nvidia-smi # system management interface
