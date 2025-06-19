@@ -6,5 +6,5 @@ nvcc -o out hello.cu -run # compiles hello.cu into out
 
 # nsys = nsight systems
 !nsys --version
-!nsys profile --stats=true ./out
+!nsys profile --stats=true -o report ./out
 # essentially a cuda program profiler
